@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <title>Result</title>
     <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="icon" href="../static/assets/python.ico" type="image/x-icon">
 </head>
 <body>
     <div class="container">
         <h1>Guess the Number</h1>
         <p>{{ result }}</p>
-        <a href="/">Play Again</a>
-    </div>
+        <form action="/" method="post">
+            <input type="hidden" name="level" value="{{ level }}">
+            <button type="submit">Play it again</button>
+        </form>        
+    </div>     
     <footer class="footer">
         thayllaa &copy; 2024 - Guess the Number Game
      </footer>
