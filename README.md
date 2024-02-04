@@ -1,33 +1,33 @@
 # Guess the Number
 
-Este é um jogo simples de "Adivinhe o Número" desenvolvido em Python com Flask.
+This is a simple "Guess the Number" game developed in Python with Flask.
 
-## Como Jogar
+## How to play
 
-1. Escolha um nível de dificuldade (Fácil, Médio ou Difícil).
-2. Tente adivinhar o número secreto.
-3. Você terá um número limitado de tentativas com base no nível de dificuldade escolhido.
-4. Se você adivinhar o número secreto, você vence. Caso contrário, continue tentando até acabarem suas tentativas.
+1. Choose a difficulty level (Easy, Medium, or Hard).
+2. Try to guess the secret number.
+3. You will have a limited number of attempts based on the chosen difficulty level.
+4. If you guess the secret number, you win. Otherwise, keep trying until you run out of attempts.s.
 
-## Instalação
+## Installation
 
-1. Clone este repositório.
-2. Instale as dependências com `pip install -r requirements.txt`.
-3. Execute o jogo com `python index.py`.
+1. Clone this repository.
+2. Install dependencies with pip install -r requirements.txt.
+3. Run the game with python index.py.
 
-## Capturas de Tela
+## Screenshot
 
 ![Guess_The_Number_Game](Screenshot_GuessNumberGame.png)
 
-## Tecnologias Usadas
+## Technologies
 
 - Python
 - Flask
 
-## Autores
+## Author
 
 - [thayllaa](https://github.com/thayllaa)
 
-## Licença
+## License
 
-Este projeto é licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT_License](https://opensource.org/licenses/MIT).
