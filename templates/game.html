@@ -1,0 +1,26 @@
+<!-- game.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Number</h1>
+        <p>You have {{ tries_left }} tries left.</p>
+        <p>{{ result }}</p>
+        <form action="/check" method="post">
+            <input type="hidden" name="secret_number" value="{{ secret_number }}">
+            <input type="hidden" name="tries_left" value="{{ tries_left }}">
+            <label for="chosen_number">Choose a number between 1 and 100:</label>
+            <input type="number" name="chosen_number" id="chosen_number" min="1" max="100" required>
+            <button type="submit">Check</button>
+        </form>
+    </div>
+    <footer class="footer">
+        thayllaa &copy; 2024 - Guess the Number Game
+     </footer> 
+</body>
+</html>

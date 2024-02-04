@@ -1,0 +1,21 @@
+<!-- templates/game_over.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Over</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Game Over</h1>
+        <p>Sorry, you've run out of tries. The secret number was {{ secret_number }}.</p>
+        <form action="/" method="get">
+            <button type="submit">Play it again</button>
+        </form>
+    </div>
+    <footer class="footer">
+        thayllaa &copy; 2024 - Guess the Number Game
+     </footer> 
+</body>
+</html>
