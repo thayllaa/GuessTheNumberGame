@@ -17,7 +17,7 @@ This is a simple "Guess the Number" game developed in Python with Flask.
 
 ## Screenshot
 
-![Guess_The_Number_Game](Screenshot_GuessNumberGame.png)
+![Homepage_Game](Homepage_Game.png)
 
 ## Technologies
 
