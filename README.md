@@ -16,8 +16,7 @@ This is a simple "Guess the Number" game developed in Python with Flask.
 3. Run the game with python index.py.
 
 ## Screenshot
-
-![Homepage_Game](Homepage_Game.png)
+<img src="https://github.com/thayllaa/GuessTheNumberGame/blob/main/Homepage_Game.png" width=60% alt="Imagem do Jogo Adivinha o Número">
 
 ## Technologies
 
